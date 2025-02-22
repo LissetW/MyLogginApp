@@ -24,11 +24,11 @@ class HomeActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val name = intent.getStringExtra("EXTRA_NAME")
-        val lastName = intent.getStringExtra("EXTRA_LAST_NAME")
+        val name = intent.getStringExtra("EXTRA_NAME")?: "Guest"
+        val lastName = intent.getStringExtra("EXTRA_LAST_NAME")?: "Unknown"
         val email = intent.getStringExtra("EXTRA_EMAIL")
-        val gender = intent.getStringExtra("EXTRA_GENDER")
-        val country = intent.getStringExtra("EXTRA_COUNTRY")
+        val gender = intent.getStringExtra("EXTRA_GENDER")?: "Not specified"
+        val country = intent.getStringExtra("EXTRA_COUNTRY")?: "Nowhere"
 
         val tvSummary = findViewById<TextView>(R.id.tvSummary)
         tvSummary.text = "Nombre: ${name}\nApellido: ${lastName}\nCorreo: ${email}\nGénero: $gender\nPaís: $country"

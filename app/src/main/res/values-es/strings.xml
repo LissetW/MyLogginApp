@@ -21,4 +21,5 @@
     <string name="app_logo_description">Logo de la aplicación</string>
     <string name="text_sign_up">¿No tienes una cuenta? Regístrate</string>
     <string name="home_title">Registro completado</string>
+    <string name="toast_field_required">¡Ambos campos deben ser llenados!</string>
 </resources>
