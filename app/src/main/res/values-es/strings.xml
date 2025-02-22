@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Mi Aplicación</string>
+    <string name="register_title">Registro</string>
+    <string name="sign_in_title">Ingresar</string>
+    <string name="sign_in_label">Ingresar</string>
+    <string name="name_label">Nombre:</string>
+    <string name="name_hint">Ingrese su nombre</string>
+    <string name="last_name_label">Apellido:</string>
+    <string name="last_name_hint">Ingrese su apellido</string>
+    <string name="email_label">Correo:</string>
+    <string name="email_hint">Ingrese su correo</string>
+    <string name="password_label">Contraseña:</string>
+    <string name="password_hint">Ingrese su contraseña</string>
+    <string name="confirm_password_label">Confirme su contraseña:</string>
+    <string name="gender_label">Género:</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="country_label">País:</string>
+    <string name="accept_terms">Acepto los términos y condiciones</string>
+    <string name="register_button">Registrar</string>
+    <string name="app_logo_description">Logo de la aplicación</string>
+    <string name="text_sign_up">¿No tienes una cuenta? Regístrate</string>
+    <string name="home_title">Registro completado</string>
+</resources>
